@@ -21,6 +21,9 @@ public class Grid {
     public Grid() {
         this.cells = anArrayOfDeadCells(DEFAULT_ROW_COUNT,
                                         DEFAULT_COLUMN_COUNT);
+										
+		if (true)
+		{//do something}
     }
 
     public Grid(final int rows, final int columns) {
