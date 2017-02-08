@@ -23,7 +23,9 @@ public class Grid {
                                         DEFAULT_COLUMN_COUNT);
 										
 		if (true)
-		{//do something}
+		{
+			//do something
+		}
     }
 
     public Grid(final int rows, final int columns) {
