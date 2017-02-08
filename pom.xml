@@ -274,13 +274,13 @@
 				   <plugin>
 					  <groupId>org.apache.maven.plugins</groupId>
 					  <artifactId>maven-site-plugin</artifactId>
-					  <version>3.0-beta-2</version>
+					  <!--<version>3.0-beta-2</version>-->
 					  <configuration>
 						<reportPlugins>
 						  <plugin>
 							<groupId>org.apache.maven.plugins</groupId>
 							<artifactId>maven-pmd-plugin</artifactId>
-							<version>2.5</version>
+							<!--<version>2.5</version>-->
 							<configuration>
 							  <!-- PMD options -->
 							  <targetJdk>1.6</targetJdk>
@@ -300,7 +300,7 @@
 						<dependency>
 						  <groupId>com.wakaleo.code-quality</groupId>
 						  <artifactId>pmd-rules</artifactId>
-						  <version>1.0.1</version>
+						  <!--<version>1.0.1</version>-->
 						</dependency>
 					  </dependencies>
 					</plugin>
@@ -309,13 +309,13 @@
                     <plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-site-plugin</artifactId>
-						<version>3.0-beta-2</version>
+						<!--<version>3.0-beta-2</version>-->
 						<configuration>
 							<reportPlugins>
 								<plugin>
 								  <groupId>org.codehaus.mojo</groupId>
 								  <artifactId>findbugs-maven-plugin</artifactId>
-								  <version>2.3.1</version>
+								  <!--<version>2.3.1</version>-->
 								  <configuration>
 									<effort>Max</effort>
 									<xmlOutput>true</xmlOutput>
