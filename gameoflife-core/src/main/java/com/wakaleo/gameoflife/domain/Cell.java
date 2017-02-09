@@ -6,6 +6,7 @@ public enum Cell {
 	//Ohhhhhhhhh private String :D
     private String symbol;
 
+	//Nur Quatsch
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
     }
