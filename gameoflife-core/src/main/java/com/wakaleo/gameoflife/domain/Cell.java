@@ -6,7 +6,7 @@ public enum Cell {
 	//Stupid comment
     private String symbol;
 
-	
+	//kdsfjsfkl
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
     }
